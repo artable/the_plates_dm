@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/range.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<h1>Single Field</h1>
+<div id="surfaceArea">
+    <canvas id="surface"></canvas>
+</div>
+<div id="fontSize">
+	<div class="range-wrap">
+		<div class="range-value" id="rangeV"></div>
+		<input id="range" type="range" min="200" max="800" value="200" step="1">
+        <div class="track"></div>
+        <div class="thumb"></div>
+	</div>
+</div>
+
+
+<script src="scripts/main.js" type="module"></script>
+<script src="scripts/range/tooltip.js"></script>
+</body>
+
+</html>

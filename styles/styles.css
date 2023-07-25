@@ -1,0 +1,6 @@
+/* BUG line widths and text for chart are not responsive if
+dimensions are set as a percentage*/
+/* when set as a constant, chart does not zoom in nicely */
+#surfaceArea{ 
+    height: fit-content; width: 400px;
+}
